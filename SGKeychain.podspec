@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SGKeychain"
-  s.version          = '1.2.0.0'
+  s.version          = '1.2.0.1'
   s.summary          = "SGKeychain is a class for working with the keychain on iOS and OS X."
   s.description      = <<-DESC
                        SGKeychain is a class for working with the keychain on iOS and OS X. It has the following features:
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/OliverLetterer/SGKeychain.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/justin'
 
-  s.platforms    = { :ios => '8.0', :tvos => '9.0' }
+  s.platforms    = { :ios => '8.0', :tvos => '9.0', :watchos => '2.0' }
 
   s.source_files = 'Classes'
   s.frameworks   = 'Security'
